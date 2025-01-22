@@ -140,7 +140,9 @@ func GetEmptyResponse(w http.ResponseWriter, r *http.Request) {
 	response := struct {
 		Message string
 		Status  int
+		Success bool
 	}{
+		Success: true,
 		Message: "Welcome to Area Calculator!",
 		Status:  http.StatusOK,
 	}
