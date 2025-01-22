@@ -27,7 +27,7 @@ func main() {
 
 	mux := http.NewServeMux()
 	mux.HandleFunc("/getArea", handler.GetAreaHandler)
-	// mux.HandleFunc("/", handler.GetEmptyResponse)
+	mux.HandleFunc("/", handler.GetEmptyResponse)
 
 	fmt.Printf("Server started at port 8080\n")
 	if err := http.ListenAndServe(":8080", mux); err != nil {
