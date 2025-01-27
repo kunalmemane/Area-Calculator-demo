@@ -6,7 +6,7 @@ RUN dnf install -y golang
 WORKDIR /app
 COPY . .
 
-RUN CGO_ENABLED=0 go build -o main cmd/main.go
+RUN CGO_ENABLED=0 go build -o main main.go
 
 # Stage 2
 FROM quay.io/fedora/fedora
