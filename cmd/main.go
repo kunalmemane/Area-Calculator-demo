@@ -5,7 +5,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/kunalmemane9150/AreaCalculator/internal/handler"
+	"github.com/kunalmemane/AreaCalculatorDemo/internal/handler"
 )
 
 func init() {

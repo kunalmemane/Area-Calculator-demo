@@ -3,8 +3,8 @@ package service_test
 import (
 	"testing"
 
-	"github.com/kunalmemane9150/AreaCalculator/internal/model"
-	"github.com/kunalmemane9150/AreaCalculator/internal/service"
+	"github.com/kunalmemane/AreaCalculatorDemo/internal/model"
+	"github.com/kunalmemane/AreaCalculatorDemo/internal/service"
 )
 
 // CalculateArea() Tests

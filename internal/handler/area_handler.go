@@ -7,10 +7,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/kunalmemane9150/AreaCalculator/internal/model"
-	"github.com/kunalmemane9150/AreaCalculator/internal/service"
-	"github.com/kunalmemane9150/AreaCalculator/internal/validator"
-	log "github.com/kunalmemane9150/AreaCalculator/pkg/logger"
+	"github.com/kunalmemane/AreaCalculatorDemo/internal/model"
+	"github.com/kunalmemane/AreaCalculatorDemo/internal/service"
+	"github.com/kunalmemane/AreaCalculatorDemo/internal/validator"
+	log "github.com/kunalmemane/AreaCalculatorDemo/pkg/logger"
 )
 
 func GetAreaHandler(w http.ResponseWriter, r *http.Request) {
@@ -146,6 +146,8 @@ func GetEmptyResponse(w http.ResponseWriter, r *http.Request) {
 		Message: "Welcome to Area Calculator!",
 		Status:  http.StatusOK,
 	}
+
+	log.New().Info().Println("homepage request")
 
 	//return response with relevant header
 	w.Header().Set("Content-Type", "application/json")

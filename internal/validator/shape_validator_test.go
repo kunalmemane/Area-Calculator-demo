@@ -5,8 +5,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/kunalmemane9150/AreaCalculator/internal/model"
-	"github.com/kunalmemane9150/AreaCalculator/internal/validator"
+	"github.com/kunalmemane/AreaCalculatorDemo/internal/model"
+	"github.com/kunalmemane/AreaCalculatorDemo/internal/validator"
 )
 
 // GetInput() Tests

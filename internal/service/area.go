@@ -3,7 +3,7 @@ package service
 import (
 	"fmt"
 
-	"github.com/kunalmemane9150/AreaCalculator/internal/model"
+	"github.com/kunalmemane/AreaCalculatorDemo/internal/model"
 )
 
 func Calculate(shapes model.IShape) (string, string) {

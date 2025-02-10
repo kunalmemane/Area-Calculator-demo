@@ -1,3 +1,3 @@
-module github.com/kunalmemane9150/AreaCalculator
+module github.com/kunalmemane/AreaCalculatorDemo
 
 go 1.21

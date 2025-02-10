@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/kunalmemane9150/AreaCalculator/internal/handler"
+	"github.com/kunalmemane/AreaCalculatorDemo/internal/handler"
 )
 
 func TestGetAreaHandler(t *testing.T) {

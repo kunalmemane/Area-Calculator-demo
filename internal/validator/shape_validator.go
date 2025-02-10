@@ -3,7 +3,7 @@ package validator
 import (
 	"errors"
 
-	"github.com/kunalmemane9150/AreaCalculator/internal/model"
+	"github.com/kunalmemane/AreaCalculatorDemo/internal/model"
 )
 
 func Validator(shape model.IShape) (model.IShape, error) {
