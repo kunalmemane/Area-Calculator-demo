@@ -147,7 +147,7 @@ func GetEmptyResponse(w http.ResponseWriter, r *http.Request) {
 		Status:  http.StatusOK,
 	}
 
-	log.New().Info().Println("homepage request")
+	log.New().Info().Println("Homepage request")
 
 	//return response with relevant header
 	w.Header().Set("Content-Type", "application/json")
